@@ -16,10 +16,9 @@ def add_item(request):
 
     if request.method == "POST":
         
-        name = request.POST.get("name")
+        name_from_ui = request.POST.get("name")
 
-        print(name)
-        name = Todo(name = name)
+        name = Todo(name=name_from_ui)
         name.save()
 
         return redirect("/")
