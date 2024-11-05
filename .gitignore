@@ -1,0 +1,81 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# Django migrations
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Environment variables file
+.env
+
+# Ignore macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Static files
+staticfiles/
+static/
+
+# Media files
+media/
+
+# Local caches
+*.cache
+*.mo
+*.cover
+*.coverage
+.coverage.*
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# Coverage reports
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Test-related files
+.tox/
+.nox/
+.pytest_cache/
+__pycache__/
+
+# Ignore Pycharm files
+*.iml
+.idea/
+
+# Ignore compiled and bundled files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+wheels/
+develop-eggs/
+.installed.cfg
+*.egg-info/
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Profiler
+.prof

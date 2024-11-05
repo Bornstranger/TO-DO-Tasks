@@ -21,24 +21,26 @@ This is a simple TODO app built using Django, a Python web framework. The app al
 
    ```bash
    git clone https://github.com/your-username/todo_app.git
-   cd todo_app
-Create a virtual environment (optional but recommended):
+   cd TODO-App
+   cd todo_project
 
- 
-1.  python -m venv venv
+2. Create a virtual environment (optional but recommended):
+
+  python -m venv venv
   source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install the project dependencies:
+
+3. Install the project dependencies:
 
 
-2.  pip install -r requirements.txt
+1.  pip install -r requirements.txt
 Apply the database migrations:
 
 
-3.  python manage.py migrate
+2.  python manage.py migrate
 Start the development server:
 
 
-4.  python manage.py runserver
+3.  python manage.py runserver
 Access the TODO app in your web browser at http://127.0.0.1:8000/todo/.
 
 ## Usage
